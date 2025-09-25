@@ -25,7 +25,7 @@ export default function ProjectsPage() {
               Manage Task App - Fullstack Web Development
             </h2>
             <p className="text-gray-400 text-sm mb-4">
-              Here's my latest project built with{" "}
+              Here&apos;s my latest project built with{" "}
               <span className="text-orange-400">Next.js</span> and{" "}
               <span className="text-orange-400">Laravel</span>, using{" "}
               <span className="text-orange-400">TailwindCSS</span> on the front-end. Watch the video to see the responsive landing page in action!

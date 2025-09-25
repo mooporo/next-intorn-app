@@ -18,7 +18,7 @@ export default function ContactMePage() {
             <span className="text-white">Contact</span>{" "}
             <span className="text-orange-400">Me</span>
           </h1>
-          <p className="text-gray-400 mb-8">Let's get in touch!</p>
+          <p className="text-gray-400 mb-8">Let&apos;s get in touch!</p>
 
           <form className="space-y-6 max-w-[500px]">
             <div>

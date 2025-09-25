@@ -16,7 +16,7 @@ export default function Home() {
         <div className="w-2/3 flex items-start overflow-y-auto">
           <div className="max-w-[450px] pl-16 pt-12 text-white">
             <h3 className="text-orange-400 font-medium tracking-wide leading-loose">
-              Let's Work Together!
+              Let&apos;s Work Together!
             </h3>
 
             <h1 className="text-3xl font-bold mt-2 leading-loose tracking-tight">
