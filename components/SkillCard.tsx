@@ -1,9 +1,11 @@
+"use client";
+
 import React from "react";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 interface SkillCardProps {
-  icon: React.ReactNode; // <-- แก้ตรงนี้
+  icon: React.ReactNode;
   name: string;
   percentage: number;
 }
@@ -12,7 +14,10 @@ export default function SkillCard({ icon, name, percentage }: SkillCardProps) {
   return (
     <div className="flex flex-col items-center gap-2">
       <div className="w-20 h-20">
-        <({
+        <CircularProgressbar
+          value={percentage}
+          text={`${percentage}%`}
+          styles={buildStyles({
             pathColor: '#f97316',
             textColor: '#f97316',
             trailColor: '#333',

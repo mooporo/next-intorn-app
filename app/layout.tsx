@@ -4,7 +4,7 @@ import "./globals.css";
 
 const libreFranklin = Libre_Franklin({
   subsets: ["latin"],
-  weight: ["400", "600"], 
+  weight: ["400", "600"],
   variable: "--font-libre-franklin",
 });
 

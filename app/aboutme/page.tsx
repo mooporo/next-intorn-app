@@ -4,36 +4,32 @@ import Bar from "../../components/Bar";
 export default function AboutMe() {
   return (
     <main className="w-screen h-screen flex bg-gray-900 relative overflow-hidden">
-      {/* Bar ด้านขวา */}
       <Bar />
 
-      {/* เนื้อหาหลัก */}
       <div className="flex w-full h-full">
-        {/* Left Profile Card */}
-        <div className="w-1/3 flex items-center justify-center bg-[#1A1A1A]">
+        <div className="w-1/3 flex items-center justify-center bg-[#1A1A1A] p-6">
           <ProfileCard />
         </div>
 
-        {/* Right Content */}
-        <div className="w-2/3 p-12 text-white overflow-y-auto">
-          {/* Heading */}
-          <h1 className="text-4xl font-bold tracking-tight leading-snug">
-            About <span className="text-orange-400">Me</span>
-          </h1>
+        <div className="w-2/3 flex items-start overflow-y-auto">
+          <div className="max-w-[600px] pl-16 pt-12 text-white">
+            <h3 className="text-orange-400 font-medium tracking-wide leading-loose">
+              About Me
+            </h3>
 
-          {/* Subheading */}
-          <p className="mt-6 text-xl font-semibold text-gray-200 leading-relaxed">
-            I find fulfillment in blending visual design with the power of coding to create meaningful experiences.
-          </p>
+            <h1 className="text-3xl font-bold mt-2 leading-loose tracking-tight">
+              I find fulfillment in blending visual design with the power of coding <br />
+              to create meaningful experiences.
+            </h1>
 
-          {/* Description */}
-          <p className="mt-6 text-gray-400 text-sm leading-loose tracking-wide">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime
-            tempora et neque a aliquid nisi voluptatem? Mollitia, officiis,
-            architecto earum voluptates obcaecati corrupti voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Iusto maxime tempora et neque a aliquid nisi voluptatem?
-          </p>
+            <p className="mt-6 text-gray-400 text-sm leading-relaxed tracking-wide">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime
+              tempora et neque a aliquid nisi voluptatem? Mollitia, officiis,
+              architecto earum voluptates obcaecati voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Iusto maxime tempora et neque a aliquid nisi voluptatem?
+            </p>
+          </div>
         </div>
       </div>
     </main>
